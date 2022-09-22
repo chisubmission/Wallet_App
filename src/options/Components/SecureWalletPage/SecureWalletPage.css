@@ -1,0 +1,37 @@
+.secure-container {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+
+.secure-header-text h1 {
+  margin: 20px 0px;
+}
+.secure-video-container {
+  height: 300px;
+}
+
+#NextBtn {
+  border: none;
+  padding: 10px 80px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  background-color: #037dd6;
+  color: white;
+  cursor: pointer;
+  margin: 30px 0px;
+}
+#NextBtn:hover {
+  background-color: #1167a6;
+}
+.secureTips-text-container {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+  border: 0.5px solid gainsboro;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.secureTips-text-container h6 {
+  font-weight: 700;
+}

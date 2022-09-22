@@ -1,0 +1,730 @@
+.send-modal-header {
+  border-bottom: 1px solid gainsboro;
+  padding: 20px;
+  background-color: #f2f3f4;
+}
+
+.send-header-input {
+  margin: auto;
+}
+.send-header-input h5 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #424242;
+  font-weight: 500;
+}
+.send-header-input input {
+  width: 450px;
+  padding: 7px 50px;
+  border-radius: 10px;
+  border: 0.5px solid gainsboro;
+  outline: none;
+  position: relative;
+}
+.send-header-input button {
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 8px;
+  z-index: 1000;
+  cursor: pointer;
+}
+.search-icon {
+  color: #727272;
+}
+.qrcode-icon {
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 11px;
+  color: #037dd6;
+  z-index: 1000;
+}
+.send-modal-close {
+  color: #037dd6;
+  cursor: pointer;
+}
+.faucet-container {
+  height: 200px;
+  padding: 0px 20px;
+  overflow: scroll;
+}
+.faucet-container li {
+  list-style: none;
+}
+.f {
+  padding: 0px 20px;
+  background-color: #f2f3f4;
+  border-bottom: 1px solid gainsboro;
+  margin-bottom: 20px;
+}
+.f small {
+  color: #037dd6;
+  font-family: "Poppins", sans-serif;
+}
+.faucet {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.faucet-profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #037dd6;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.faucet-text h6 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #424242;
+}
+.faucet-text small {
+  color: #424242;
+}
+.faucet-footer {
+  background-color: #f2f3f4;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+.faucet-footer h6 {
+  font-size: 14px;
+  color: #037dd6;
+  font-weight: 400;
+}
+.faucet-footer small {
+  color: #3d3d3d;
+  font-size: 12px;
+}
+.ethAssets-sendSelectEth-container {
+  display: none;
+  font-family: "Poppins", sans-serif;
+}
+.ethAssets-sendSelectEth-header {
+  background-color: #f2f3f4;
+  padding: 10px 0px;
+}
+.faucet-ethAssets-sendSelectEth-container-close {
+  margin-left: auto;
+  cursor: pointer;
+  color: #037dd6;
+  padding-right: 20px;
+}
+.faucet-id-header {
+  padding-top: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.faucet-id-header div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.faucet-id-header h6 {
+
+  color: #424242;
+  font-weight: 700;
+}
+.f-close-timesIcons {
+  margin-left: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.faucet-id-box {
+  height: 70px;
+  margin: 0px 170px;
+  padding: 0px 20px;
+  border: 0.5px solid #037dd6;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: -15px;
+}
+.f-name {
+  margin-top: 10px;
+}
+.f-id {
+  font-size: 12px;
+  color: #037dd6;
+}
+.f-id .lastFour {
+  color: #ff4a8d;
+}
+.ethAssets-sendSelectEthAmount {
+  margin: 20px 70px;
+}
+.warning-txt {
+  color: #ff4a8d;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.eth-balance-select-container,
+.eth-amount-max {
+  border: 0.5px solid gainsboro;
+  border-radius: 10px;
+  padding: 10px 20px;
+  height: 70px;
+}
+.balance-usd {
+  display: none;
+}
+.amount-usd-title,
+.usd-icon,
+.selected-amount-usd-title,
+.selected-usd-icon {
+  display: none;
+}
+.selected-amount-eth-title,
+.selected-amount-usd-title {
+  margin-left: 5px;
+}
+
+.balance-eth p,
+.balance-usd p {
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #424242;
+}
+.balance-eth p span,
+.balance-usd p span {
+  font-size: 12px;
+}
+.selectAsset-name {
+  margin-left: auto;
+}
+.selectAsset-name select {
+  border: none;
+  outline: none;
+}
+.selectAsset-name select option {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+}
+.eth-amount-max p {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.eth-amount-max #AmountInput {
+  width: 50px;
+  border: none;
+  outline: none;
+}
+
+.eth-amount-max button {
+  margin-left: auto;
+  border: 0.3px solid #037dd6;
+  color: #037dd6;
+  background-color: #ffffff;
+  font-size: 12px;
+  padding: 5px 15px;
+  border-radius: 7px;
+}
+#sendEthContinueBtn {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 12px 60px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  background-color: #037dd6;
+}
+
+/* ethereum gas container css start*/
+.ethereum-gas-container {
+  display: none;
+  margin: 30px;
+}
+.what-ethereum-gas-video {
+  width: 350px;
+}
+
+.gas-text {
+  font-family: "Poppins", sans-serif;
+  color: #424242;
+}
+.gas-text h6 {
+  color: #037dd6;
+  margin: 10px 0px;
+}
+.gas-text p {
+  font-size: 12px;
+}
+.acc1 {
+  width: 350px;
+}
+.acc1 small {
+  margin-left: 10px;
+}
+.acc2 {
+  margin-left: auto;
+  /* overflow: hidden; */
+}
+.acc2 img {
+  margin: 0px 10px;
+}
+.acc2Icon {
+  color: #4d4d4d;
+}
+.faucet-send-assets-amount-transaction {
+  font-family: "Poppins", sans-serif;
+  color: #4d4d4d;
+}
+.faucet-code-container {
+  width: 100%;
+  height: auto;
+  background-color: #f2f3f4;
+  padding: 5px 20px;
+}
+.e-balance {
+  border: 0.5px solid gainsboro;
+  width: 200px;
+  height: 50px;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+.e-balance-select {
+  margin-left: auto;
+}
+.e-balance-select input {
+  border: none;
+  outline: none;
+  width: 80px;
+  padding: 0px 5px;
+}
+.ethImg img {
+  margin-right: 10px;
+}
+.ethImg p {
+  font-weight: 600;
+  margin-top: 15px;
+}
+.select-amount-container {
+  padding: 5px 0px;
+  text-align: center;
+}
+.selected-eth {
+  margin-left: 10px;
+}
+.selectedEthAmount {
+  margin: auto;
+}
+.selected-eth p {
+  font-weight: 500;
+  font-size: 14px;
+  background-color: rgb(209, 209, 209);
+  padding: 0px 10px;
+  border-radius: 30px;
+}
+#ethMaxBtn {
+  font-size: 9px;
+  border: 0.4px solid #037dd6;
+  color: #037dd6;
+  border-radius: 30px;
+  background-color: #ffffff;
+  margin-top: -10px !important;
+  margin-bottom: 0;
+  width: 40px;
+  margin: auto;
+}
+.estimated-fee {
+  /* margin-bottom: -15px; */
+}
+.Max-fee {
+  margin-bottom: -10px;
+}
+.estimated-fee h6 {
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Max-fee h6 {
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 17px;
+}
+.estimated-t-time {
+  background-color: #f2f3f4;
+  border-radius: 5px;
+  width: 140px;
+  height: 55px;
+  text-align: center;
+  margin-top: 5px;
+}
+.question-icon {
+  margin-right: 20px;
+  color: #727272;
+}
+.estimated-t-time small {
+  font-size: 9px;
+}
+.estimated-t-time h6 {
+  font-weight: 500;
+  text-align: center;
+}
+
+.medium-gas-fee,
+.high-gas-fee,
+.medium-max-fee,
+.high-max-fee,
+.medium-max-fee-gwei,
+.high-max-fee-gwei {
+  display: none;
+}
+.low-transaction-time {
+  color: rgb(255, 0, 0);
+}
+.medium-transaction-time,
+.high-transaction-time {
+  color: rgb(30, 138, 30);
+  display: none;
+}
+
+.stepper-wrapper {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.stepper-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.step-name {
+  font-size: 12px;
+}
+.stepper-item::before {
+  position: absolute;
+  content: "";
+  border-bottom: 10.5px solid #ccc;
+  width: 100%;
+  top: -0.5px;
+  left: -50%;
+  z-index: 2;
+}
+
+.stepper-item::after {
+  position: absolute;
+  content: "";
+  border-bottom: 10.5px solid #ccc;
+  width: 100%;
+  top: -0.5px;
+  left: 50%;
+  z-index: 2;
+}
+
+.stepper-item .step-counter {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-bottom: 6px;
+}
+
+.stepper-item.completed .step-counter {
+  background-color: #037dd6;
+}
+
+.stepper-item.completedNext::before {
+  position: absolute;
+  content: "";
+  border-bottom: 10.5px solid #037dd6;
+  width: 100%;
+  right: 50%;
+  z-index: 3;
+}
+
+.stepper-item:first-child::before {
+  content: none;
+}
+.stepper-item:last-child::after {
+  content: none;
+}
+
+.av,
+.h {
+  display: none;
+}
+/* .stepper-item:nth-child(2)::before {
+  content: "";
+  border-bottom: 10.5px solid #037dd6;
+  right: 50%;
+  z-index: 3;
+}
+.stepper-item:last-child::before {
+  content: "";
+  border-bottom: 10.5px solid #037dd6;
+  right: 50%;
+  z-index: 3;
+} */
+
+.advance-options-container {
+  margin-left: auto;
+}
+.showAdvance {
+  text-align: right;
+  margin-top: -10px;
+}
+.showAdvanceBtn {
+  color: #037dd6;
+  text-align: right;
+  font-size: 10px;
+  cursor: pointer;
+}
+.Gas-limit-mp-fee-container {
+  margin-left: auto;
+  display: none;
+}
+.Gas-limit-mp-fee-container small {
+  font-size: 8px;
+}
+.gwei {
+  margin-left: auto;
+  border: 0.5px solid gainsboro;
+  text-align: right;
+  font-size: 6px;
+  border-radius: 3px;
+  width: 70px;
+  padding: 0px 4px;
+}
+.total-amount-container {
+  border-bottom: 0.5px solid gray;
+  border-top: 0.5px solid gray;
+}
+.total-container span,
+.amount-container span {
+  margin-left: auto;
+}
+.amount-container span {
+  font-weight: 700;
+}
+.amount-container h6 {
+  font-weight: 700;
+}
+
+.AllTotalEth,
+.AllMaxTotalEth {
+  display: none;
+}
+.trans-fee-btn-cancel,
+.trans-fee-btn-next {
+  width: 167px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.trans-fee-btn-cancel {
+  border: 0.5px solid #037dd6;
+  color: #037dd6;
+  background-color: #ffffff;
+}
+
+.trans-fee-btn-next {
+  border: 0.5px solid #037dd6;
+  color: #ffffff;
+  margin-left: 22px;
+  background-color: #037dd6;
+}
+
+.warning-container {
+  display: none;
+  font-family: "Poppins", sans-serif;
+  color: #424242;
+}
+
+.recipient-address-container h6 {
+  color: #037dd6;
+}
+.last-four-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  transform: translateX(13%);
+  margin: 40px 0;
+}
+.validity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 176px;
+}
+
+.validity .invalid {
+  color: #ff4a8d;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 13px;
+}
+
+.validity .valid {
+  color: #219e37;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 13px;
+}
+
+.last-four-container .last-four-digits {
+  width: 106px;
+  height: 17px;
+
+  text-align: center;
+
+  /* Dark Blue' */
+
+  border: 1px solid #00529e;
+  border-radius: 45px;
+}
+.re-scan-qrcode-icon {
+  font-size: 10px;
+  color: #037dd6;
+}
+
+.warning-text-div {
+  width: 550px;
+  background-color: #fff0f0;
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+  padding: 5px 0px;
+}
+
+.warningCheckbox {
+  margin: auto;
+}
+.warningCheckbox input {
+  width: 20px;
+  height: 20px;
+  border: 0.5px solid #037dd6;
+  outline: none;
+}
+.warningCheckbox span {
+  color: #037dd6;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
+#warningCancelBtn,
+#warningConfirmBtn {
+  padding: 8px 50px;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+}
+#warningCancelBtn {
+  color: #037dd6;
+  font-weight: 300;
+  background-color: #ffffff;
+  border: 0.5px solid #037dd6;
+}
+
+#warningConfirmBtn {
+  color: #ffffff;
+  background-color: #037dd6;
+  margin-left: 10px;
+  border: none;
+  position: relative;
+}
+.warning-btn-div {
+  margin: auto;
+}
+.warningConfirmBtn-overlay {
+  width: 157px;
+  height: 38px;
+  background-color: rgba(228, 228, 228, 0.856);
+  opacity: 0.8;
+  position: absolute;
+  margin-top: -38px;
+  border-radius: 5px;
+  margin-left: 398px;
+}
+
+.finishPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 890px;
+  height: 624px;
+
+  background: #ffffff;
+  box-shadow: 0px 3.21302px 3.21302px rgba(0, 0, 0, 0.25);
+  border-radius: 12.0488px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.finishPopup div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.finishPopup .success-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #000000;
+  margin-top: 50px;
+}
+.finishPopup .finishButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6.65455px 68.2091px;
+  gap: 16.64px;
+
+  width: 301.03px;
+  height: 63.5px;
+
+  background: #037dd6;
+  border-radius: 16.6364px;
+  font-size: 29.9455px;
+  line-height: 67px;
+  /* or 224% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+
+  border: none;
+  outline: none;
+
+  margin-top: 50px;
+}

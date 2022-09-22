@@ -1,0 +1,45 @@
+.helpUsImproveWallet-container {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.checkIcon {
+  color: green;
+  margin-right: 10px;
+}
+.redTimes-icon {
+  color: red;
+  margin-right: 10px;
+}
+.improve-help-text span {
+  font-weight: 600;
+}
+#noThanksBtn,
+#agreeBtn {
+  width: 250px;
+  padding: 10px 70px;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#noThanksBtn {
+  border: 0.5px solid #037dd6;
+  background-color: #ffffff;
+  color: #037dd6;
+}
+#agreeBtn {
+  border: 0.5px solid #037dd6;
+  background-color: #037dd6;
+  color: #ffffff;
+  margin-left: 10px;
+}
+#agreeBtn:hover {
+  background-color: #005b9c;
+}
+.policy-container {
+  color: rgb(150, 150, 150);
+  margin-top: 20px;
+}
+.policy-link {
+  text-decoration: none;
+  color: #037dd6;
+}

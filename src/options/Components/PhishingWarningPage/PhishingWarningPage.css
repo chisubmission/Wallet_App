@@ -1,0 +1,40 @@
+.phishingWarning-header-title {
+  margin-top: 170px;
+}
+.phishingWarning-header-title h1 {
+  font-family: "Poppins", sans-serif;
+  color: #cf2528;
+  font-weight: bolder;
+  font-size: 48px;
+  margin-top: -2px;
+}
+.phishingWarning-text {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+  margin: 30px 0px;
+}
+.phishingWarning-text h5 {
+  color: #cf2528;
+  margin-top: 30px;
+}
+.browsers-img {
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.browsers-img img {
+  margin: 0px 25px;
+}
+#gotItBtn {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #037dd6;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px 80px;
+  font-size: 18px;
+}
+#gotItBtn:hover {
+  background-color: #0073c5;
+}

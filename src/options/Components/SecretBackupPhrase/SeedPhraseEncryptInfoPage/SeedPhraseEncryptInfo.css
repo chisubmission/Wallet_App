@@ -1,0 +1,48 @@
+.Info-container {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.Info-container h1 {
+  margin: 20px 0px;
+}
+.info-text {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+#ContinueBtn {
+  border: none;
+  padding: 10px 60px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  background-color: #037dd6;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#ContinueBtn:hover {
+  background-color: #1167a6;
+}
+
+.progress-mark {
+  margin: auto;
+  display: flex;
+  width: 100px;
+}
+.one,
+.two,
+.three {
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: rgb(190, 190, 190);
+  margin: 0px 5px;
+}
+.one {
+  background-color: rgb(20, 20, 20);
+}

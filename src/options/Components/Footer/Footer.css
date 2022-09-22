@@ -1,0 +1,9 @@
+.footer-content {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.footer-content span {
+  color: #037dd6;
+  cursor: pointer;
+}

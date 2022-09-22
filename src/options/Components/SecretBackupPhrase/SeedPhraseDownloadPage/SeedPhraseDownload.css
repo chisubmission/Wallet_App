@@ -1,0 +1,40 @@
+.download-container {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.download-container h1 {
+  margin: 20px 0px;
+}
+.Phrase-download-container {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+  padding: 40px;
+  text-align: center;
+}
+#downloadBtn {
+  border: none;
+  padding: 12px 80px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  background-color: #037dd6;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+#downloadBtn:hover {
+  background-color: #1167a6;
+}
+.spedOne,
+.spedTwo,
+.spedThree {
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: rgb(190, 190, 190);
+  margin: 0px 5px;
+}
+.spedThree {
+  background-color: rgb(20, 20, 20);
+}

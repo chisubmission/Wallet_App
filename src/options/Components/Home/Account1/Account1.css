@@ -1,0 +1,245 @@
+.clipboard-container {
+  margin-left: auto;
+}
+.accountMenu {
+  position: relative;
+  width: 200px;
+  cursor: auto;
+}
+.account-name-id {
+  cursor: pointer;
+}
+.account-name-id h5 {
+  margin-bottom: 10px;
+}
+.account-name-id:hover {
+  width: 250px;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+}
+.copied-test {
+  display: none;
+}
+.menuBarClick {
+  float: right;
+  width: 20px;
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.links {
+  padding: 10px 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+  border: none;
+  outline: none;
+  width: 200px;
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 10px;
+}
+.list {
+  position: absolute;
+  transform-origin: top;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-right: auto;
+  display: none;
+  margin-top: 7px;
+}
+
+.newlist {
+  transform: scaleY(1);
+}
+.listMenuIcon {
+  width: 20px;
+  margin-left: 10px;
+  float: left;
+}
+
+/* modal css */
+.overlay-container {
+  font-family: "Poppins", sans-serif;
+  color: rgb(100, 100, 100);
+  position: relative;
+  outline: none;
+}
+.userIcon-container img {
+  margin-left: 92px;
+  margin-top: -60px;
+  border: 2px solid #4a85c6;
+  padding: 1px;
+  border-radius: 50px;
+  /* z-index: 1000; */
+}
+
+.head-title {
+  font-family: "Poppins", sans-serif;
+  color: rgb(100, 100, 100);
+}
+.setOverlayFalse {
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  margin-left: auto;
+  margin-right: -20px;
+  margin-top: -20px;
+  color: rgb(100, 100, 100);
+}
+.qrCodeImg {
+  margin: auto;
+}
+#exportPrivetKeyBtn,
+.viewEthBtn {
+  width: 250px;
+  border: 0.5px solid #037dd6;
+  border-radius: 5px;
+  padding: 7px 0px;
+  color: #037dd6;
+  background-color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#qrCodeInput {
+  width: 250px;
+  padding: 7px 10px;
+  outline: none;
+  border-radius: 3px;
+  border: 0.5px solid gainsboro;
+  font-size: 10px;
+}
+.qrCodeInputInput-container {
+  border-bottom: 2px solid gainsboro;
+  height: 60px;
+}
+
+/* inside modal css */
+.warning {
+  width: 230px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(252, 234, 234);
+  color: red;
+  margin: 20px 0px;
+  margin-left: 18px;
+}
+.warning p {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+}
+
+#insideModalCancelBtn,
+#insideModalConfirmBtn {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 100;
+  margin: 0px 5px;
+}
+#insideModalCancelBtn {
+  border: 0.5px solid rgb(163, 163, 163);
+  background-color: rgb(243, 243, 243);
+  color: gray;
+}
+#insideModalConfirmBtn {
+  border: 0.5px solid #037dd6;
+  background-color: rgb(255, 255, 255);
+  color: #4daaec;
+}
+#insideModalDoneBtn {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 100;
+  border: 0.5px solid #037dd6;
+  background-color: rgb(255, 255, 255);
+  color: #4daaec;
+  display: none;
+}
+
+.private-key-input-container h6 {
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+.private-key-input-container label {
+  font-size: 13px;
+  margin: auto;
+}
+.private-key-input-container {
+  margin-left: 18px;
+}
+
+.inside-modal-input1 {
+  outline: none;
+  border: 0.5px solid gainsboro;
+  border-radius: 3px;
+  width: 260px;
+  padding: 7px;
+}
+.inside-modal-input1 small{
+  font-size: 10px;
+}
+.inside-modal-input2 {
+  outline: none;
+  border: 0.5px solid gainsboro;
+  border-radius: 3px;
+  width: 230px;
+  padding: 5px 10px;
+  margin: auto;
+}
+
+.inside-modal-input3-container {
+  display: none;
+}
+.inside-modal-input3 {
+  border: 0.5px solid gainsboro;
+  border-radius: 3px;
+  width: 235px;
+  height: 50px;
+  cursor: pointer;
+}
+.inside-modal-input3 p {
+  font-size: 12px;
+  color: red;
+  font-family: "Poppins", sans-serif;
+  margin: 5px;
+}
+.inside-modal-input3-container small {
+  font-size: 12px;
+  margin: auto;
+}
+
+.what-isIt-container {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+
+.inside-module-video-container {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.inside-modal-video {
+  width: 250px;
+  margin-bottom: 10px;
+}
+.what-isIt-container h6 {
+  font-weight: 600;
+  color: #037dd6;
+}
+.what-isIt-container p {
+  font-size: 10px;
+  font-weight: 300;
+}
+.privateKeyConfirmBtn-overlay {
+  width: 62px;
+  height: 37px;
+  background-color: rgba(88, 88, 88, 0.815);
+  /* background-color: rgba(255, 255, 255, 0.493); */
+  opacity: 0.8;
+  position: absolute;
+  border-radius: 5px;
+  margin-left: 70px;
+  margin-top: -40px;
+}

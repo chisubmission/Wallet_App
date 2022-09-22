@@ -1,0 +1,189 @@
+.home-header {
+  background-color: #f2f3f4;
+  display: flex;
+  position: relative;
+}
+.home-logo {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+  background-color: #f2f3f4;
+  font-weight: 700;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.home-logo h3 {
+  margin-top: 14px;
+  margin-left: 10px;
+}
+.home-header img {
+  width: 40px;
+  height: 100%;
+}
+.home-container {
+  width: 900px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: -40px;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.Account1 {
+  padding: 15px 0px;
+  border-bottom: 0.5px solid gainsboro;
+  display: flex;
+}
+.account-name-id {
+  /* margin-left: auto; */
+  margin-right: -220px;
+  text-align: center;
+}
+.accountMenu {
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Account1 small {
+  color: #7e7e7e;
+}
+.Account1 h5 {
+  font-size: 15px;
+}
+.ethereum-icon {
+  border: 0.5px solid gainsboro;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+.ethereum-icon img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+}
+.eth-balance p {
+  color: #7e7e7e;
+}
+
+.buy-send-swap-container {
+  border-bottom: 0.01px solid rgb(248, 248, 248);
+}
+.buy,
+.send,
+.swap {
+  margin: 5px 20px;
+  background-color: #00529E;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.icons {
+  font-size: 17px;
+  color: white;
+  margin-top: 10px;
+}
+.buy-send-swap p {
+  color: #00529E;
+}
+.assets-title,
+.activity-title {
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  color: #7e7e7e;
+  cursor: pointer;
+}
+.assets-title {
+  border-bottom: 1px solid #00529E;
+  color: #00529E;
+}
+.assets-activity-container {
+  box-shadow: 0 2px 1px -1px rgb(199, 199, 199);
+}
+.assets-balance-container {
+  box-shadow: 0 1px 1px -1px rgb(199, 199, 199);
+  height: 200px;
+}
+.assets-balance-container:hover {
+  background-color: #f2f3f4;
+}
+.assets-ethereum-icon {
+  margin: 30px 20px;
+  border: 0.5px solid gainsboro;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+.assets-ethereum-icon img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+}
+.assets-eth-balance {
+  margin-top: 25px;
+}
+.ChevronRightIcon {
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+.ChevronRightIcons {
+  cursor: pointer;
+}
+.activity-transactions-container {
+  height: 200px;
+  text-align: center;
+  display: none;
+  overflow-y: scroll;
+}
+.activity-transactions-container::-webkit-scrollbar {
+  display: none;
+}
+
+.transactions-content p {
+  color: rgb(170, 170, 170);
+  margin-top: 20px;
+}
+.add-token-container {
+  height: 100px;
+}
+#addTokenBtn {
+  border: 0.5px solid #00529E;
+  padding: 10px 60px;
+  border-radius: 30px;
+  margin: auto;
+  background-color: #fff;
+  color: #00529E;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.NetworksForm-container {
+  margin-left: auto;
+}
+#Networks {
+  border: 0.5px solid gainsboro;
+  border-radius: 30px;
+  padding: 7px 10px;
+  margin-top: 35px;
+  outline: none;
+  color: #7e7e7e;
+  font-family: "Poppins", sans-serif;
+}
+#Networks option {
+  border: none;
+}
+.walletProfileIcon {
+  margin-right: -25px;
+}
+.profile-icon img {
+  margin-top: 35px;
+  margin-left: 20px;
+  border: 1px solid #00529E;
+  border-radius: 50px;
+  padding: 2px;
+  cursor: pointer;
+}

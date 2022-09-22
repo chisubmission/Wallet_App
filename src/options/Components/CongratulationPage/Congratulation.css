@@ -1,0 +1,30 @@
+.congratulation-text-container {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.congratulation-title h1 {
+  margin-bottom: 20px;
+}
+
+.congratulation-text h6 {
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.congratulation-text a {
+  text-decoration: none;
+}
+
+#allDoneBtn {
+  border: none;
+  padding: 10px 80px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  background-color: #037dd6;
+  color: white;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+#allDoneBtn:hover {
+  background-color: #1167a6;
+}

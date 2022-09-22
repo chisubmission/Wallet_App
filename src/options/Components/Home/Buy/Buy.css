@@ -1,0 +1,82 @@
+.buy-modal-header {
+  border-bottom: 2px solid gainsboro;
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+  margin-bottom: 40px;
+}
+.buy-modal-header h4 {
+  font-weight: 600;
+}
+.buy-modal-header p {
+  font-weight: 300;
+  font-size: 12px;
+}
+.buy-modal-times-Icon {
+  margin-left: auto;
+  cursor: pointer;
+}
+.buy-modal-video-container {
+  width: 270px;
+  margin-bottom: 10px;
+}
+.buy-modal-text {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.buy-modal-text h6 {
+  color: #00529E;
+  font-weight: 600;
+}
+.buy-modal-text p {
+  font-size: 13px;
+}
+
+.wyre-img,
+.eth-img {
+  width: 100px;
+  margin-right: 20px;
+}
+.wyre-img img,
+.eth-img img {
+  margin: auto;
+}
+
+.eth-img img {
+  border: 2px solid rgb(71, 71, 71);
+  border-radius: 50px;
+  padding: 5px 12px;
+  position: relative;
+}
+.eth-plus-icon {
+  position: absolute;
+  border: 2px solid rgb(71, 71, 71);
+  border-radius: 50px;
+  padding: 2px 7px;
+  margin-top: 32px;
+  margin-left: 57px;
+  font-size: 15px;
+  background-color: #ffff;
+  color: rgb(71, 71, 71);
+}
+.wyre-text,
+.eth-text {
+  width: 250px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.wyre-text h6,
+.eth-text h6 {
+  font-size: 18px;
+}
+
+#wyreBtn,
+#ethBtn {
+  width: 160px;
+  font-size: 12px;
+  border: 0.2px solid #00529E;
+  border-radius: 5px;
+  padding: 10px 0px;
+  background-color: #ffff;
+  color: #00529E;
+  margin: 20px 0px;
+}
