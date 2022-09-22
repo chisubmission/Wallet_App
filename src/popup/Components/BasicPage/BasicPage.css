@@ -1,0 +1,56 @@
+.header {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+  font-weight: 700;
+  display: flex;
+  padding: 10px 0px;
+}
+
+.header h2 {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.header img {
+  width: 50px;
+  height: 100%;
+}
+.basic-section {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  color: rgb(58, 58, 58);
+}
+.title {
+  margin-bottom: 10px;
+}
+
+.content-video {
+  margin: 20px;
+}
+.content-video a {
+  float: left;
+  color: rgb(58, 58, 58);
+  font-size: 12px;
+}
+.video-container {
+  width: 200px;
+}
+.lets-moveText {
+  margin-bottom: 30px;
+}
+#WalletSetupBtn {
+  border: none;
+  padding: 12px 45px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  background-color: #037dd6;
+  color: white;
+  cursor: pointer;
+}
+
+/* @media screen and(width: 768px) {
+  .content-video {
+    margin: 20px 0px;
+  }
+} */

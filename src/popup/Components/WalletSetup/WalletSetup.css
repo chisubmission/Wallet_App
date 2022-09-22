@@ -1,0 +1,93 @@
+.walletSetup-container {
+  text-align: center;
+  /* margin: 0px 30px; */
+}
+.walletSetup-container h2 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.import-wallet-container,
+.Create-wallet-container {
+  margin-top: 20px;
+  border: 0.5px solid gainsboro;
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+  border-radius: 10px;
+  text-align: center;
+}
+#importWalletBtn,
+#createWalletBtn {
+  border: none;
+  padding: 10px 45px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  background-color: #037dd6;
+  color: white;
+  cursor: pointer;
+  margin: 20px 30px;
+  margin-bottom: 30px;
+}
+
+#importWalletBtn:hover,
+#createWalletBtn:hover {
+  background-color: #1167a6;
+}
+
+.questionIcon {
+  font-size: 25px;
+  color: #037dd6;
+  margin-left: 90%;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.arrowIcon,
+.plusIcon {
+  font-size: 30px;
+  color: rgb(155, 155, 155);
+  margin: 20px 0px;
+}
+
+.importModal,
+#createModal {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+
+.timesIcon {
+  font-size: 25px;
+  margin-left: 100%;
+  cursor: pointer;
+}
+.howMetaMask-walletWork-videoContainer {
+  width: 280px;
+  margin: auto;
+}
+.howMetaMask-walletWork-videoContainer-list {
+  display: flex;
+}
+.howMetaMask-walletWork-videoContainer-list p {
+  font-size: 14px;
+  width: 90%;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.icon-dollarSign,
+.icon-globe,
+.icon-lock {
+  width: 40px;
+}
+.icon-dollarSign span,
+.icon-globe span,
+.icon-lock span {
+  font-size: 20px;
+  color: #037dd6;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.setup-title,
+.have-title {
+  font-size: 14px;
+  font-weight: 600;
+}

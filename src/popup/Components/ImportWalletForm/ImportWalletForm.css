@@ -1,0 +1,70 @@
+
+.header-text h3 {
+  margin: 5px 0px;
+}
+.form-container {
+  font-family: "Poppins", sans-serif;
+  color: rgb(58, 58, 58);
+}
+.forms {
+  width: 300px;
+}
+.forms input {
+  outline: none;
+}
+.formGroup-phraseInput {
+  margin-bottom: 7px;
+}
+.formGroup-newPass {
+  margin: 5px 0px;
+  margin-bottom: 7px;
+}
+.formGroup-conPass {
+  margin-bottom: 7px;
+}
+.form-check-input {
+  outline: none;
+  border-radius: 0;
+  width: 30px;
+  height: 30px;
+  color: rgb(99, 99, 99);
+}
+.form-check-label span {
+  font-size: 17px;
+  color: rgb(99, 99, 99);
+}
+.termsCheck {
+  margin-bottom: -5px;
+}
+
+#submitBtn {
+  border: none;
+  padding: 10px 60px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  background-color: #037dd6;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+#submitBtn:hover {
+  background-color: #1167a6;
+}
+.terms-checkbox a {
+  text-decoration: none;
+}
+#phraseContainWords {
+  color: red;
+}
+.confirmUploadBtn{
+  border: none;
+  padding: 10px 20px;
+  background-color: #037dd6;
+  color: #ffffff;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.confirmUploadBtn:hover{
+  background-color: #1167a6;
+}

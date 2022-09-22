@@ -1,0 +1,57 @@
+.history-content-container{
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.history-content-container:hover{
+  border-bottom: 1px solid rgb(207, 207, 207);
+  background-color: rgb(242, 243, 244);
+}
+.paperIconDiv{
+  color: #037dd6;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: .5px solid #037dd6;
+  margin-top: 33px;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.pIcon{
+  margin-top: 5px;
+  padding-top: 3px;
+}
+.history-content-first{
+  text-align: left;
+}
+.history-content-first p{
+  font-weight: 500;
+  color: rgb(80, 80, 80);
+}
+.history-content-first p:last-child{
+  margin-top: -10px;
+  font-size: 12px;
+}
+.history-content-first p:last-child{
+  color: rgb(18, 185, 18);
+}
+.history-content-first p span{
+  color: rgb(80, 80, 80);
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.history-content-last{
+ text-align: end;
+ margin-right: 20px;
+}
+.history-content-last p{
+ color: rgb(80, 80, 80) !important;
+ font-weight: 500;
+}
+.history-content-last p:last-child{
+  margin-top: -10px;
+  font-size: 12px;
+}
