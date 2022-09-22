@@ -1,4 +1,4 @@
-Don't use this project without permission. Copyright to sree.momoi@gmail.com
+
 * clone project
 * npm install 
 * npm run build
